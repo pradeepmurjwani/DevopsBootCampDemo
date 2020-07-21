@@ -37,12 +37,12 @@ public class CalculatorServiceTest {
 	
 	@Test
 	public void testSum1() {
-		Assertions.assertEquals(calculatorService.sum(10,20), 20);
+		Assertions.assertNotEquals(calculatorService.sum(10,20), 20);
 	}
 	
 	@Test
 	public void testSubtract1() {
-		Assertions.assertEquals(calculatorService.subtract(10,20), -20);
+		Assertions.assertNotEquals(calculatorService.subtract(10,20), -20);
 	}
 	
 	@Test
