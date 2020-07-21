@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.devops.bootcamp.CalculatorServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.621 s <<< FAILURE! - in com.devops.bootcamp.CalculatorServiceTest
+testSum1  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <30> but was: <20>
+	at com.devops.bootcamp.CalculatorServiceTest.testSum1(CalculatorServiceTest.java:40)
+
+testSubtract1  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-10> but was: <-20>
+	at com.devops.bootcamp.CalculatorServiceTest.testSubtract1(CalculatorServiceTest.java:45)
+
