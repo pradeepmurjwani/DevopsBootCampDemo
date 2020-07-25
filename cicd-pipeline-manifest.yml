@@ -1,6 +1,6 @@
 ---
 applications:
-- name: pipeline_springboot_via_cloudfoundry_plugin
+- name: pipeline_springboot_via_cf_plugin
   memory: 1024M
   instances: 1
   path: target/cicd-pipeline-0.0.1-SNAPSHOT.jar
